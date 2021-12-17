@@ -1,0 +1,38 @@
+Run one by one command in Raspberry pi Terminal.
+-----------------------------------------------
+
+1. sudo apt-get update
+2. sudo apt-get upgrade
+3. sudo apt install libatlas3-base libsz2 libharfbuzz0b libtiff5 libjasper1 libilmbase12 libopenexr22 libilmbase12 libgstreamer1.0-0 libavcodec57 libavformat57 libavutil55 libswscale4 libqtgui4 libqt4-test libqtcore4
+
+4. sudo pip3 install opencv-contrib-python libwebp6
+
+                    or:
+    a. sudo pip install numpy
+    b. sudo pip install matplotlib
+    c. pip install opencv-python
+
++---------------------------------------------------------------------------------------------------------------+
+|    {                                                                                                          |
+|       "Refrence_1": https://www.instructables.com/Image-Processing-With-the-Raspberry-Pi-Installing-/     ,   |
+|       "Refrence_2": https://www.instructables.com/Install-OpenCV-on-Raspberry-Pi-in-Less-Than-10-Min/         |
+|   }                                                                                                           |
+
++---------------------------------------------------------------------------------------------------------------+
+
+5. sudo apt install tesseract-ocr
+
+6. sudo apt install libtesseract-dev
+>>>>{ For Windos Dounload from :  https://github.com/UB-Mannheim/tesseract/wiki  }
+
+7. sudo pip install pytesseract
+
+8. sudo pip install imutils --target /usr/local/lib/python3.5/dist-packages/
+                oc,
+  pip install dlib imutils
+                or,
+  pip3 install dlib imutils
+                or,
+  pip install imutils
+
+  (If required put sudo before pip3/pip)
